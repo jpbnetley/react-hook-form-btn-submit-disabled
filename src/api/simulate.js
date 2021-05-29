@@ -11,7 +11,6 @@ export const valid = async (data) => {
   console.log('after sleep')
   const x = new Promise((resolve, reject) => resolve(body))
   const r = await x
-  console.log(r)
   return new Promise((resolve, reject) => resolve(r))
 }
 /**

@@ -9,9 +9,7 @@ export const valid = async (data) => {
   const body = {status: 200, form: data}
   await sleep()
   console.log('after sleep')
-  const x = new Promise((resolve, reject) => resolve(body))
-  const r = await x
-  return new Promise((resolve, reject) => resolve(r))
+  return new Promise((resolve, reject) => resolve(body))
 }
 /**
  * Simulates if an api call gives back an error

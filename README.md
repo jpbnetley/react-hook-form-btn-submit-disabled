@@ -1,4 +1,4 @@
-# Disable submit button on click
+# Disable submit button on click when using react hook form
 ## GOAL
 The goal is to disable the submit button while an api call is made to  
 prevent the user form clicking the submit button twice while the api    
